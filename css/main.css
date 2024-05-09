@@ -1,0 +1,580 @@
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.contenedorAdentro {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+nav {
+  width: 100%;
+  max-width: 1300px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  border-bottom: 1px solid darkgrey;
+}
+
+.devSearchFlex {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.containerSearch {
+  top: 10px;
+  left: 85px;
+}
+
+.inputDiv {
+  margin-left: 10px;
+}
+
+.lupaDiv {
+  margin-left: 375px;
+  margin-top: -35px;
+}
+
+.logoDev {
+  height: 50px;
+  width: 60px;
+}
+
+.searchBar {
+  height: 40px;
+  width: 400px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.buttonLogIn2 {
+  border: none;
+  background: transparent;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-right: 14px;
+  height: 38px;
+  width: 80px;
+}
+
+.buttonLogIn2:hover {
+  background: rgb(234, 241, 252);
+  opacity: 1;
+  color: blue;
+  border: none;
+  border-radius: 8%;
+  text-decoration: underline;
+}
+
+.btnAcc2 {
+  border: 1px solid blue;
+  border-radius: 4px;
+  background-color: rgb(245, 245, 245);
+  color: blue;
+  height: 38px;
+  width: 128px;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 3px;
+}
+
+.btnAcc2:hover {
+  background-color: blue;
+  color: white;
+  text-decoration: underline;
+}
+
+.navBarBtns {
+  margin-left: auto;
+}
+
+.aside1 {
+  background-color: rgb(245, 245, 245);
+  flex: 1;
+  flex-grow: 1;
+  min-width: 20%;
+  gap: 30px;
+}
+.aside1 .card {
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.aside1 .card .cardContent {
+  padding: 10px;
+  margin: 10px;
+}
+.aside1 .card h3 {
+  font-weight: lighter;
+}
+
+.links {
+  list-style-type: none;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.links li {
+  margin-bottom: 10px;
+}
+.links li a {
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.socials div a {
+  text-decoration: none;
+}
+
+div h5 {
+  font-weight: lighter;
+  color: rgb(124, 124, 124);
+}
+div h5 a {
+  text-decoration: none;
+}
+
+.buttonLogIn {
+  border: none;
+  background: transparent;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-right: 14px;
+  height: 38px;
+  width: 100%;
+}
+
+.buttonLogIn:hover {
+  background: rgb(234, 241, 252);
+  opacity: 1;
+  color: blue;
+  border: none;
+  border-radius: 8%;
+  text-decoration: underline;
+}
+
+.btnAcc {
+  border: 1px solid blue;
+  border-radius: 4px;
+  background-color: rgb(245, 245, 245);
+  color: blue;
+  height: 38px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.btnAcc:hover {
+  background-color: blue;
+  color: white;
+  text-decoration: underline;
+}
+
+main {
+  flex: 1;
+  flex-grow: 4;
+  min-width: 55%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100dvh;
+}
+body p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  max-width: 100%;
+  height: 36px;
+  padding-top: 2px;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  text-align: left;
+  font-size: 18px;
+  padding-left: 20px;
+}
+header ul a {
+  text-decoration: none;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.sectionMain {
+  max-width: 100%;
+  border: 1px lightgray solid;
+  border-radius: 1%;
+  margin-top: 15px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  /*.btn {
+          border: none;
+          height: 30px;
+          background: transparent;
+          font-family: $font-family;
+
+          span {
+              color: green;
+          }
+      }
+
+      .btn:hover {
+          background: rgb(130 5 146 / 10%);
+          opacity: 1;
+          color: black;
+          border: 1px solid purple;
+          border-radius: 8%;
+      }
+  }*/
+}
+.sectionMain h1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sectionMain h1:hover {
+  color: blue;
+}
+.sectionMain .mainImage {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sectionMain .imageTravis {
+  width: 30px;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.sectionMain .divTravis {
+  width: 15%;
+}
+.sectionMain .authorContainer {
+  position: relative;
+}
+.sectionMain .authorDate {
+  position: absolute;
+  top: 3px;
+  left: 62px;
+}
+.sectionMain .iconsDiv {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.sectionMain .iconsDiv .icons {
+  background-color: lightgrey;
+  width: 20px;
+  height: 20px;
+  border-radius: 70%;
+}
+.sectionMain .buttonsDiv {
+  display: inline-flex;
+  gap: 15px;
+  margin: 0 8px;
+}
+.sectionMain .buttonsDiv .btnGreen {
+  border: none;
+  height: 30px;
+  background: transparent;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sectionMain .buttonsDiv .btnGreen .btnColorGreen {
+  color: green;
+}
+.sectionMain .buttonsDiv .btnGreen:hover {
+  background: rgba(52, 238, 39, 0.1);
+  opacity: 1;
+  color: black;
+  border: 1px solid green;
+  border-radius: 6%;
+}
+.sectionMain .buttonsDiv .btnBlue {
+  border: none;
+  height: 30px;
+  background: transparent;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sectionMain .buttonsDiv .btnBlue .btnColorBlue {
+  color: blue;
+}
+.sectionMain .buttonsDiv .btnBlue:hover {
+  background: rgba(63, 60, 240, 0.1);
+  opacity: 1;
+  color: black;
+  border: 1px solid blue;
+  border-radius: 6%;
+}
+.sectionMain .buttonsDiv .btnRed {
+  border: none;
+  height: 30px;
+  background: transparent;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sectionMain .buttonsDiv .btnRed .btnColorRed {
+  color: red;
+}
+.sectionMain .buttonsDiv .btnRed:hover {
+  background: rgba(243, 47, 33, 0.1);
+  opacity: 1;
+  color: black;
+  border: 1px solid red;
+  border-radius: 6%;
+}
+.sectionMain .buttonsDiv .btnYellow {
+  border: none;
+  height: 30px;
+  background: transparent;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sectionMain .buttonsDiv .btnYellow .btnColorYellow {
+  color: yellow;
+}
+.sectionMain .buttonsDiv .btnYellow:hover {
+  background: rgba(240, 213, 10, 0.1);
+  opacity: 1;
+  color: black;
+  border: 1px solid yellow;
+  border-radius: 6%;
+}
+.sectionMain .reactions {
+  margin-left: 20px;
+  margin-top: 0;
+  margin-right: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sectionMain .comments {
+  margin-left: 5px;
+  margin-top: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sectionMain .comments .readingTime {
+  margin-left: 160px;
+}
+.sectionMain .bookmark {
+  border: none;
+  margin-left: 40px;
+  margin-top: -10px;
+  background: transparent;
+}
+.sectionMain .startNow {
+  color: blue;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.sectionMain .cardTwoText {
+  margin: 0 20px;
+}
+.sectionMain .happyCoding {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.sectionMain .devCommunity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sectionMain button {
+  border: none;
+  background: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .reactionsHide,
+  .commentsHide,
+  .aside1,
+  .aside2,
+  .containerSearch,
+  .buttonLogIn2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .aside1 {
+    display: block;
+  }
+  .aside2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .aside2 {
+    display: block;
+  }
+}
+.aside2 {
+  background-color: rgb(245, 245, 245);
+  flex: 1;
+  flex-grow: 1;
+  min-width: 20%;
+}
+.aside2 .card {
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.aside2 .card .cardContent {
+  padding: 10px;
+  margin: 10px;
+}
+.aside2 .card h3 {
+  font-weight: lighter;
+}
+
+.parrafo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 25px;
+  font-size: large;
+  font-weight: lighter;
+}
+
+.contenedores {
+  border-bottom: 1px solid #eeebeb;
+}
+
+.contenedores:hover {
+  color: blue;
+}
+
+.contenedor1 {
+  background-color: whitesmoke;
+  margin: 0.5px;
+  text-align: justify;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container .row .continue-with {
+  border: 5px;
+  border-color: blue;
+}
+
+.profilePic {
+  width: 30px;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #171717;
+}
+a:hover {
+  cursor: pointer;
+  color: #0000ff;
+}
+
+.aside2 .card {
+  padding: 0px;
+}
+.aside2 .card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+.aside2 .card .contenedores, .aside2 .card .cardContent {
+  padding: 16px 12px;
+  margin: 0px;
+}
+.aside2 .card .desciptionTag {
+  font-size: 12px;
+  font-weight: 300;
+}
+.aside2 h4 {
+  font-size: 18px;
+}
+
+#titleListWrapper {
+  padding: 0px;
+}
+
+.listPostSideBar {
+  padding: 20px;
+  list-style: none;
+}
+.listPostSideBar:hover {
+  background-color: #fff;
+  color: #0000ff;
+}
+
+.icons-reaction {
+  padding: 10px;
+}
+.icons-reaction:hover {
+  background-color: #fff;
+  color: #0000ff;
+}
+.icons-reaction span {
+  color: black;
+}
+
+.info-post {
+  border-top: 25px solid pink;
+}
+.info-post .autor-detalles {
+  margin-top: -30px;
+}
+.info-post .autor-detalles .author {
+  font-weight: 700;
+}
+.info-post ul {
+  list-style: none;
+  padding: 0;
+}
+.info-post ul li {
+  margin: 10px 0;
+}
+.info-post ul .key {
+  font-weight: 700;
+}
+
+#titleListWrapperDetail {
+  margin: 0;
+  padding: 0;
+}
+
+.sectionMain h1, .sectionMain p {
+  color: #212529;
+}/*# sourceMappingURL=main.css.map */

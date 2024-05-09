@@ -1,0 +1,621 @@
+// Aqui van las variables
+$body-bg-color: rgb(245, 245, 245);
+$card-bg-color: white;
+$card-list-margin-bottom: 10px;
+
+//Variables de Xochitl
+$font-family: Georgia, 'Times New Roman', Times, serif;
+$font-size: 10px;
+$max-width: 100%;
+$max-height: 100%;
+$margin: 0px auto;
+//fin de variables de Xochitl
+
+body {
+    background-color: $body-bg-color;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.contenedorAdentro {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+
+
+// CSS de NavBar DAVID
+
+nav {
+    width: 100%;
+    max-width: 1300px;
+    //margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid darkgrey;
+}
+
+.devSearchFlex {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.containerSearch {
+    top: 10px;
+    left: 85px;
+}
+
+.inputDiv {
+    //position: relative;
+    margin-left: 10px;
+}
+
+.lupaDiv {
+    //position: absolute;
+    margin-left: 375px;
+    margin-top: -35px;
+
+}
+
+.logoDev {
+    height: 50px;
+    width: 60px;
+}
+
+.searchBar {
+    height: 40px;
+    width: 400px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.buttonLogIn2 {
+    border: none;
+    background: transparent;
+    font-family: $font-family;
+    margin-right: 14px;
+    height: 38px;
+    width: 80px;
+
+}
+
+.buttonLogIn2:hover {
+    background: rgb(234, 241, 252);
+    opacity: 1;
+    color: blue;
+    border: none;
+    border-radius: 8%;
+    text-decoration: underline;
+}
+
+.btnAcc2 {
+    border: 1px solid blue;
+    border-radius: 4px;
+    background-color: $body-bg-color;
+    color: blue;
+    height: 38px;
+    width: 128px;
+    font-weight: bold;
+    white-space: nowrap;
+    padding: 3px;
+}
+
+.btnAcc2:hover {
+    background-color: blue;
+    color: white;
+    text-decoration: underline;
+}
+
+.navBarBtns {
+
+    margin-left: auto;
+}
+
+
+
+// CSS de Aside izquierda AKIRA
+
+.aside1 {
+    background-color: $body-bg-color;
+    flex: 1;
+    flex-grow: 1;
+    min-width: 20%;
+    gap: 30px;
+
+    .card {
+        background-color: $card-bg-color;
+        border: 2px solid #ccc;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+        .cardContent {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h3 {
+            font-weight: lighter;
+        }
+    }
+}
+
+
+.links {
+    list-style-type: none;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+    li {
+        margin-bottom: $card-list-margin-bottom;
+
+        a {
+            text-decoration: none;
+            color: black
+        }
+    }
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+    div {
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+div {
+    h5 {
+        font-weight: lighter;
+        color: rgb(124, 124, 124);
+
+        a {
+
+            text-decoration: none;
+        }
+    }
+}
+
+//buttons Create Account and Log in de Aside 1
+.buttonLogIn {
+    border: none;
+    background: transparent;
+    font-family: $font-family;
+    margin-right: 14px;
+    height: 38px;
+    width: 100%;
+
+}
+
+.buttonLogIn:hover {
+    background: rgb(234, 241, 252);
+    opacity: 1;
+    color: blue;
+    border: none;
+    border-radius: 8%;
+    text-decoration: underline;
+}
+
+.btnAcc {
+    border: 1px solid blue;
+    border-radius: 4px;
+    background-color: $body-bg-color;
+    color: blue;
+    height: 38px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btnAcc:hover {
+    background-color: blue;
+    color: white;
+    text-decoration: underline;
+}
+
+//fin de buttons
+
+
+// CSS de Main XOCHITL
+
+main {
+    flex: 1;
+    flex-grow: 4;
+    min-width: 55%;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    height: 100dvh;
+
+
+    p {
+        font-family: $font-family;
+    }
+}
+
+header {
+    max-width: $max-width;
+    height: 36px;
+    padding-top: 2px;
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        gap: 25px;
+        text-align: left;
+        font-size: 18px;
+        padding-left: 20px;
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-family: $font-family;
+        }
+    }
+}
+
+.sectionMain {
+    max-width: $max-width;
+    border: 1px lightgray solid;
+    border-radius: 1%;
+    margin-top: 15px;
+    background-color: $card-bg-color;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+    h1 {
+        margin-top: 20px;
+        margin-left: 20px;
+        font-family: $font-family;
+    }
+
+    h1:hover {
+        color: blue;
+    }
+
+    .mainImage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .imageTravis {
+        width: 30px;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-top: 20px;
+
+    }
+
+    .divTravis {
+        width: 15%;
+
+    }
+
+    .authorContainer {
+        position: relative;
+    }
+
+    .authorDate {
+        position: absolute;
+        top: 3px;
+        left: 62px;
+    }
+
+    .iconsDiv {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 20px;
+
+        .icons {
+            background-color: lightgrey;
+            width: 20px;
+            height: 20px;
+            border-radius: 70%;
+        }
+    }
+
+    .buttonsDiv {
+        display: inline-flex;
+        gap: 15px;
+        margin: 0 8px;
+
+        .btnGreen {
+            border: none;
+            height: 30px;
+            background: transparent;
+            font-family: $font-family;
+
+            .btnColorGreen {
+                color: green;
+            }
+        }
+
+        .btnGreen:hover {
+            background: rgba(52, 238, 39, 0.1);
+            opacity: 1;
+            color: black;
+            border: 1px solid green;
+            border-radius: 6%;
+        }
+
+        .btnBlue {
+            border: none;
+            height: 30px;
+            background: transparent;
+            font-family: $font-family;
+
+            .btnColorBlue {
+                color: blue;
+            }
+        }
+
+        .btnBlue:hover {
+            background: rgba(63, 60, 240, 0.1);
+            opacity: 1;
+            color: black;
+            border: 1px solid blue;
+            border-radius: 6%;
+        }
+
+        .btnRed {
+            border: none;
+            height: 30px;
+            background: transparent;
+            font-family: $font-family;
+
+            .btnColorRed {
+                color: red;
+            }
+        }
+
+        .btnRed:hover {
+            background: rgba(243, 47, 33, 0.1);
+            opacity: 1;
+            color: black;
+            border: 1px solid red;
+            border-radius: 6%;
+        }
+
+        .btnYellow {
+            border: none;
+            height: 30px;
+            background: transparent;
+            font-family: $font-family;
+
+            .btnColorYellow {
+                color: yellow;
+            }
+        }
+
+        .btnYellow:hover {
+            background: rgba(240, 213, 10, 0.1);
+            opacity: 1;
+            color: black;
+            border: 1px solid yellow;
+            border-radius: 6%;
+        }
+
+
+    }
+
+    /*.btn {
+            border: none;
+            height: 30px;
+            background: transparent;
+            font-family: $font-family;
+
+            span {
+                color: green;
+            }
+        }
+
+        .btn:hover {
+            background: rgb(130 5 146 / 10%);
+            opacity: 1;
+            color: black;
+            border: 1px solid purple;
+            border-radius: 8%;
+        }
+    }*/
+
+    .reactions {
+        margin-left: 20px;
+        margin-top: 0;
+        margin-right: 20px;
+        font-family: $font-family;
+    }
+
+    .comments {
+
+        margin-left: 5px;
+        margin-top: 0;
+        font-family: $font-family;
+
+        .readingTime {
+            margin-left: 160px;
+        }
+
+    }
+
+    .bookmark {
+        border: none;
+        margin-left: 40px;
+        margin-top: -10px;
+        background: transparent;
+    }
+
+    .startNow {
+        color: blue;
+        text-decoration: underline;
+        font-size: 30px;
+    }
+
+    .cardTwoText {
+        margin: 0 20px;
+    }
+
+    .happyCoding {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+    }
+
+    .devCommunity {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: $font-family;
+    }
+
+    button {
+        border: none;
+        background: transparent;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+
+    .reactionsHide,
+    .commentsHide,
+    .aside1,
+    .aside2,
+    .containerSearch,
+    .buttonLogIn2 {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width:768px) {
+    .aside1 {
+        display: block;
+    }
+
+    .aside2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .aside2 {
+        display: block;
+    }
+}
+
+
+// CSS de Aside derecha ANGEL
+
+.aside2 {
+    background-color: $body-bg-color;
+    flex: 1;
+    flex-grow: 1;
+    min-width: 20%;
+
+    .card {
+        background-color: $card-bg-color;
+        border: 2px solid #ccc;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+        .cardContent {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h3 {
+            font-weight: lighter;
+        }
+
+
+    }
+}
+
+.parrafo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 25px;
+    font-size: large;
+    font-weight: lighter;
+
+}
+
+.contenedores {
+    border-bottom: 1px solid #eeebeb;
+}
+
+.contenedores:hover {
+    color: blue;
+}
+
+.contenedor1 {
+
+    background-color: whitesmoke;
+    margin: .5px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+
+// CSS Login Form
+
+.container {
+    .row {
+        .continue-with {
+            border: 5px;
+            border-color: blue;
+        }
+    }
+}
+
+.profilePic {
+
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 3px;
+   
+}
+
+@import 'sideBarPost';
+@import 'detalles';
+

@@ -1,0 +1,42 @@
+.icons-reaction{
+    padding: 10px;
+    &:hover{
+        background-color: #fff;
+        color: #0000ff;
+    }
+    span{
+        color: black;
+    }
+}
+
+.info-post{
+    border-top: 25px solid pink;
+    .autor-detalles{
+        margin-top: -30px;
+        .author{
+            font-weight: 700;
+        }
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            margin: 10px 0;
+        }
+        .key{
+            font-weight: 700;
+        }
+    }
+}
+
+#titleListWrapperDetail {
+    margin: 0;
+    padding: 0;
+}
+
+.sectionMain{
+    h1, p{
+        color: #212529;
+    }
+    
+}

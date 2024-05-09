@@ -1,0 +1,51 @@
+a{
+    &:hover{
+        cursor: pointer;
+    
+        color: #0000ff;
+    }
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #171717;
+    
+}
+.aside2{
+    .card{
+       
+        
+            padding: 0px;
+            h3{
+                font-size: 20px; 
+                font-weight: 700;
+                padding: 0;
+                margin: 0;
+            }
+            .contenedores, .cardContent{
+                padding: 16px 12px;
+                margin: 0px;
+            }
+            .desciptionTag{
+                font-size: 12px;
+                font-weight: 300;
+            }
+    }
+    h4{
+        font-size: 18px;
+    }
+    
+}
+
+#titleListWrapper{
+    padding: 0px;
+}
+
+.listPostSideBar{
+    padding: 20px;
+    list-style: none;
+    &:hover{
+        background-color: #fff;
+        color: #0000ff;
+    }
+
+}
